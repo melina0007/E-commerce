@@ -8,19 +8,25 @@ header{
   position:sticky;
   width: 1366;
   height: 90px;
-  background-color: rgba(153, 139, 94, 0.50);
+  background-color: rgba(153, 139, 94, 0.3);
+  left: 0px;
+  right: 0px ;
   
 
 }
 nav{
-  font-weight: 500;
-  font-size: 18px;
-  gap: 45px;
-  width: 573,74;
-  height: 41,24px;
+ gap: 35px;
+  width: 574px;
+  height: 28px;
+  top: 34px;
+  right: 362px;
+  left: 430px;
 }
 nav a{
   color: black;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23,4px;
 }
 .flex{
   display: flex;
@@ -30,12 +36,12 @@ justify-content: space-between;
 }
 
  
-div{
-  gap:25px;
-  height: 27px;
-margin-bottom: 61px;
-margin-top: 21px;
-margin-right: 40px;
+.iconH{
+ width: 133px;
+ height: 27px;
+ left: 1186px;
+ top:37px;
+ gap:29px;
 }
 figure{
   display: flex;
@@ -54,7 +60,13 @@ figure{
   }
   ul {
       list-style-type: none;
-      font-size: 28px;
+      font-size: 18px;
+      margin-right: 115px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+
+
     }
   .l1{
       font-family: 'Krub', sans-serif;
@@ -94,17 +106,22 @@ figure{
       height: 250px;
       left: 0px;
       right: 0px;
-      background-color: rgba(153, 139, 94, 0.50);
+      background-color: rgba(153, 139, 94, 0.3);
       margin-top: 500px;
       font-style: normal;
-      font-weight: bold;
+      font-weight: 500;
       font-size: 18px;
       line-height: 23px;
 
   }
-  p{
-      margin-left: 115px;
+
+  .F{
+   gap: 27px;
+   height: 60px;
+   width: 187.133px;
+   margin-left: 115px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
   }
-  .meta{
-      margin-left: 73px;
-  }
+  
