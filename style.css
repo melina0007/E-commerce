@@ -1,0 +1,110 @@
+*{margin: 0;
+  padding: 0;
+  font-family: 'koho',sans-serif;
+  text-decoration: none;
+  color: black;
+}
+header{
+  position:sticky;
+  width: 1366;
+  height: 90px;
+  background-color: rgba(153, 139, 94, 0.50);
+  
+
+}
+nav{
+  font-weight: 500;
+  font-size: 18px;
+  gap: 45px;
+  width: 573,74;
+  height: 41,24px;
+}
+nav a{
+  color: black;
+}
+.flex{
+  display: flex;
+  flex-direction: row;
+justify-content: space-between;
+ align-items:center;
+}
+
+ 
+div{
+  gap:25px;
+  height: 27px;
+margin-bottom: 61px;
+margin-top: 21px;
+margin-right: 40px;
+}
+figure{
+  display: flex;
+  flex-direction: column;
+  width: 332.68px;
+  height: 451px;
+  left: 10.68px;
+  
+}
+.image{width: 332.68px;
+  height: 451px;
+  left: 10.68px;
+  }
+  figcaption{
+      text-align: center;
+  }
+  ul {
+      list-style-type: none;
+      font-size: 28px;
+    }
+  .l1{
+      font-family: 'Krub', sans-serif;
+      font-weight: 400;
+      color: rgba(153, 110, 94, 1);
+
+  }
+  .divImg1{
+      display: flex;
+      justify-content: space-around;
+      margin-right: auto;
+      margin-left: auto;
+  }
+  main{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+  }
+  .div2{
+      margin-top: 500px;
+  }
+  h1{
+      margin-top: 55px;
+      margin-bottom: 40px;
+      align-self: center;
+      font-family: 'Krub', sans-serif;
+      color: #996E5E ;
+      font-weight: 300;
+      font-style: italic;
+      font-size: 36px;
+      line-height: 31px;
+      text-decoration-line: underline;
+      text-transform: capitalize;
+      text-shadow: 0px, 4px, 4px, 0,25;
+  }
+  footer{
+      height: 250px;
+      left: 0px;
+      right: 0px;
+      background-color: rgba(153, 139, 94, 0.50);
+      margin-top: 500px;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 23px;
+
+  }
+  p{
+      margin-left: 115px;
+  }
+  .meta{
+      margin-left: 73px;
+  }
